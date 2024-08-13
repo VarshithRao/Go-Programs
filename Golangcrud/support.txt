@@ -1,0 +1,39 @@
+Support
+https://www.golangprograms.com/example-of-golang-crud-using-mysql-from-scratch.html
+
+
+Create a new user mdvp
+password: abcd1234
+Give all permissions
+
+database= "goblog"
+Table=Run in sql
+
+
+DROP TABLE IF EXISTS `employee`;
+CREATE TABLE `employee` (
+  `id` int(6) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  `city` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+
+
+Creating Struct, Handler and Handler Function
+Creating Template files
+
+
+
+
+
+
+
+C:\Users\Administrator\Desktop\aa>go mod init webproject
+go: creating new go.mod: module webproject
+go: to add module requirements and sums:
+        go mod tidy
+C:\Users\Administrator\Desktop\aa>go get github.com/go-sql-driver/mysql
+go: added filippo.io/edwards25519 v1.1.0
+go: added github.com/go-sql-driver/mysql v1.8.1
+C:\Users\Administrator\Desktop\aa>go run main.go
